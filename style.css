@@ -1,0 +1,104 @@
+@font-face {
+    font-family: myfont;
+    src: url(font/LinikSans-Bold.ttf);
+}
+
+@font-face{
+    font-family: myfont2;
+    src:url(font/LinikSans-Medium.ttf)
+}
+
+
+#login{
+    width: 550px;height:806px;
+    margin-top:55px;
+    margin-left: 50px;
+    background-color:rgb(255, 255, 255);
+}
+
+.logo{
+    margin-top: 20px; margin-left: 20px;
+    width: 120px;
+}
+
+#img{
+    margin-top: 59px;
+    width: 650px; 
+
+}
+
+.title{
+    font-family:myfont;
+    font-size: 30px;
+    width:220px;
+    margin: 150px 0px 50px 100px;
+}
+
+.form-group{
+    width: 290px; height: 40px;
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 7px;
+    margin:15px 60px 20px 100px;
+    display: flex;
+}
+
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #000000;
+    flex-grow: 5;
+    padding-left: 10px;
+}
+
+
+.me{
+    font-family:myfont2;
+    font-size: 14px;
+}
+
+
+#Sign{
+    background-color: rgb(7, 3, 36);
+    width: 290px; height:40px;
+    border: 2px solid rgb(7, 3, 36);
+    border-radius: 7px;
+    margin: 40px 40px 10px 100px;
+    outline: none;
+    display: flex;
+}
+
+#cre{
+    font-style: bold;
+    margin:auto ;
+    color: white;
+}
+
+#gg{
+    background-color: rgb(255, 255, 255);
+    width: 290px; height:40px;
+    border-radius: 7px;
+    border: 2px solid rgb(7, 3, 36);
+    margin: 10px 40px 20px 100px;
+    outline: none;
+    display: flex;
+}
+
+.ggle{
+    display: flex;
+}
+
+.google{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #000000;
+    flex-grow: 1;
+    margin: 10px 20px 0px 60px; 
+}
+
+.signup{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 140px;
+}
